@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>FeatureTorch</id>
+    <version>1.0.0</version>
+    <authors>Nattaaek Wattanuyan</authors>
+    <owners>Nattaaek Wattanuyan</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/nattaaek/FeatureTorch</projectUrl>
+    <iconUrl>http://youriconurl.com/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>BDD living doc</description>
+    <releaseNotes>Initial release of your package.</releaseNotes>
+    <tags>BDD SpecFlow Documentation Generator</tags>
+    <dependencies>
+      <!-- List your package dependencies here -->
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Specify the files to include in the package, typically using wildcards -->
+    <file src="bin\Release\netstandard2.0\**" target="lib\netstandard2.0" />
+  </files>
+</package>
